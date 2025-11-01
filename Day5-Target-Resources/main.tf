@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "name" {
 }
 
 
-#teragte resource we can user to apply specific resource level only belwo command is the reference 
+#target resource can be used to apply specific resource level only belwo command is the reference 
 #terraform apply -target=aws_s3_bucket.name
 
 #try skip resource 
